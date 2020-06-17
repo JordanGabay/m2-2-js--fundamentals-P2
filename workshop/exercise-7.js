@@ -6,8 +6,9 @@
 // Q7
 // Returns a new list with all the elements of lst that are length greater than 5
 function keepLong(lst) {
-  // lst is an array of strings
+  return lst.filter(number => number.length > 5);
 }
+// lst is an array of strings
 // -------------------------------------------------------------------------
 console.log(
   'Q5 keepLong()',
